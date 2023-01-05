@@ -14,7 +14,7 @@ class User:
 def hello_world():
     user = User(username="marcaas", email="marcaas@china.com")
     person = {
-        "username": "张三",
+        "username": "zhangsan",
         "email": "zhangsan@qq.com"
     }
     return render_template("index.html", user=user, person = person)
